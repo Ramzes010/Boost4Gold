@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+*, *::after, *::before {
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+  }
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+.container {
+    padding: 0 10px;
+    width: 100%;
+    max-width: 1350px;;
+    margin: 0 auto;    
+}
+
+.content {
+    max-width: 100%;
+    height: 100%;
+    width: 100%;
+}
+
+.page{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+body{
+    background-color: #0f0f0f;
+}
+
+.header_position{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    margin-right: 80px;
+}
+
+.header_search{
+    display: flex;
+    align-items: center;
+}
+
+.link{
+    color: rgb(239, 239, 239);
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    margin-right: 15px;    
+}
+
+.link:hover{
+    color: rgb(247, 147, 26);   
+}
+
+.active{
+color: rgb(247, 147, 26);
+}
+
+.img_search{
+    box-sizing: border-box;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+    background: linear-gradient(133.07deg, rgb(255, 225, 90) 10.677%,rgb(247, 147, 26) 100%);
+    padding: 15px;   
+}
+
+.img_shop{
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.8);
+    background: linear-gradient(142.13deg, rgb(247, 147, 26) 22.75%,rgb(255, 225, 90) 77.443%);    
+}
+
+.img_profile{
+    box-sizing: border-box;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+    background: linear-gradient(133.07deg, rgb(255, 225, 90) 10.677%,rgb(247, 147, 26) 100%);
+    padding: 11px 14px;    
+}
+
+.header_icon img{
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.page{
+    background-image: url(img/Фон.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.block_1_title{
+    font-family: "Archivo Black", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    color: #fff;    
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 182px;
+}
+
+.block_1_subtitle{
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;    
+    text-align: center;
+    margin: 15px 0 300px 0;
+}
+
+.image-slider {
+    overflow: hidden;
+  }
+  
+  .image-container {
+    display: flex;
+    transition: transform 0.3s ease;
+    cursor: grab;
+  }
+  
+  .image-content{
+    object-fit: cover;
+    width: 400px;
+    height: 412px;
+    background-color: red;
+    margin-right: 10px; 
+    max-width: 100%;  
+  }
+
+  .image-1 {
+    background-image: url('img/Rectangle\ 5\ \(3\).png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .image-2 {
+    background-image: url('img/Rectangle\ 5\ \(4\).png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .image-3 {
+    background-image: url('img/Rectangle\ 5\ \(2\).png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .image-4 {
+    background-image: url('img/Rectangle\ 5\ \(1\).png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .image-5 {
+    background-image: url('img/Rectangle\ 5\ \(3\).png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .image-6 {
+    background-image: url('img/Rectangle\ 5\ \(2\).png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .stars{
+    display: flex;
+    padding: 12px  0  0 20px;
+    margin-bottom: 261px;
+  }
+
+  .image_title{
+    color: rgb(255, 255, 255);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    padding-left: 25px;    
+  }
+
+  .image-content h3::after{
+    content: 'ㅤ';
+    width: 15px;
+    height: 15px;
+    background-image: url(img/icons/Coin.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
